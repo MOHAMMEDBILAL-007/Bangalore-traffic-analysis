@@ -1,2 +1,2 @@
 # Bangalore-traffic-analysis
-A linear regression model
+Mlp model
