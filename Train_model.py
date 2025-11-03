@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import r2_score
 import matplotlib.pyplot as plt
-
+ 
 df = pd.read_csv("processed_traffic_data.csv")
 
 target = "Travel Time Index"
