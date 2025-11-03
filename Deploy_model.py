@@ -2,7 +2,7 @@ import tensorflow as tf
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 import numpy as np
-
+ 
 model = tf.keras.models.load_model("traffic_model.keras")
 
 df = pd.read_csv("processed_traffic_data.csv")
