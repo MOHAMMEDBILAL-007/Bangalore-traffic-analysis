@@ -1,7 +1,6 @@
-
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
-
+import numpy as np
 file_path = "D:\learning\Deep learning\Banglore_traffic_Dataset.csv"   # change path if needed
 df = pd.read_csv(file_path)
 
