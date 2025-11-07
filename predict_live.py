@@ -15,7 +15,7 @@ df = pd.read_csv("traffic_prepared.csv")
 holidays = pd.read_csv("holidays_2022_2026.csv")
 holidays["Date"] = pd.to_datetime(holidays["Date"])
 
-print("\n🚦 Bengaluru Traffic Predictor — LIVE Weather + Holiday + LSTM\n")
+print("\nBengaluru Traffic Predictor — LIVE Weather + Holiday + LSTM\n")
 
 date_str = input("Enter date (YYYY-MM-DD): ")
 date = pd.to_datetime(date_str)
@@ -39,7 +39,7 @@ road = roads[int(input("\nSelect Road: "))-1]
 speed = float(input("Enter current speed (km/h): "))
 congestion = float(input("Enter congestion (0-100): "))
 
-print("\n🌦 Fetching live weather from Open-Meteo...")
+print("\n Fetching live weather from Open-Meteo...")
 
 try:
     url = "https://api.open-meteo.com/v1/forecast"
